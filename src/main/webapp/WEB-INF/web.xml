@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PassServlet</servlet-name>
+		<servlet-class>PassServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PassServlet</servlet-name>
+		<url-pattern>/pass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PassUpdateServlet</servlet-name>
+		<servlet-class>PassUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PassUpdateServlet</servlet-name>
+		<url-pattern>/passUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TopMenuServlet</servlet-name>
+		<servlet-class>TopMenuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopMenuServlet</servlet-name>
+		<url-pattern>/topMenu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PrjIchiranServlet</servlet-name>
+		<servlet-class>PrjIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrjIchiranServlet</servlet-name>
+		<url-pattern>/prjIchiran</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PrjSinkiServlet</servlet-name>
+		<servlet-class>PrjSinkiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrjSinkiServlet</servlet-name>
+		<url-pattern>/prjSinki</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PrjInsertServlet</servlet-name>
+		<servlet-class>PrjInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrjInsertServlet</servlet-name>
+		<url-pattern>/prjInsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PrjHenshuServlet</servlet-name>
+		<servlet-class>PrjHenshuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrjHenshuServlet</servlet-name>
+		<url-pattern>/prjHenshu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PrjUpdateServlet</servlet-name>
+		<servlet-class>PrjUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrjUpdateServlet</servlet-name>
+		<url-pattern>/prjUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BYIchiranServlet</servlet-name>
+		<servlet-class>BYIchiranServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BYIchiranServlet</servlet-name>
+		<url-pattern>/byIchiran</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BYSinkiServlet</servlet-name>
+		<servlet-class>BYSinkiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BYSinkiServlet</servlet-name>
+		<url-pattern>/bySinki</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BYInsertServlet</servlet-name>
+		<servlet-class>BYInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BYInsertServlet</servlet-name>
+		<url-pattern>/byInsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BYHenshuServlet</servlet-name>
+		<servlet-class>BYHenshuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BYHenshuServlet</servlet-name>
+		<url-pattern>/byHenshu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>BYUpdateServlet</servlet-name>
+		<servlet-class>BYUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BYUpdateServlet</servlet-name>
+		<url-pattern>/byUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>KotuHenshuServlet</servlet-name>
+		<servlet-class>KotuHenshuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuHenshuServlet</servlet-name>
+		<url-pattern>/kotuHenshu</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>KotuInsertServlet</servlet-name>
+		<servlet-class>KotuInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuInsertServlet</servlet-name>
+		<url-pattern>/kotuInsert</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>KotuRirekiServlet</servlet-name>
+		<servlet-class>KotuRirekiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuRirekiServlet</servlet-name>
+		<url-pattern>/kotuRireki</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>KotuShosaiServlet</servlet-name>
+		<servlet-class>KotuShosaiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuShosaiServlet</servlet-name>
+		<url-pattern>/kotuShosai</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>KotuSinseiServlet</servlet-name>
+		<servlet-class>KotuSinseiServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuSinseiServlet</servlet-name>
+		<url-pattern>/kotuSinsei</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>KotuUpdateServlet</servlet-name>
+		<servlet-class>KotuUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>KotuUpdateServlet</servlet-name>
+		<url-pattern>/kotuUpdate</url-pattern>
+	</servlet-mapping>
+</web-app>

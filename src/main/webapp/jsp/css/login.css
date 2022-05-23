@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+	text-align:center; /* 中央揃え */
+}
+
+/* 上に表示する帯 */
+#logoback{
+	position:fixed;/* 固定配置 */
+	top:0;/* 上から0 */
+	left:0;/* 左から0 */
+	width:100%;/* 幅は画面に対して100% */
+	height:132px;/* 高さ132px */
+	margin:0;/* マージンなし */
+	padding:0;/* 内側のマージンなし */
+	background:#ffffff;/* 背景色：白 */
+	z-index:99;/* 画像の下に重なる */
+}
+
+/* ロゴの表示 */
+#logo{
+	position:fixed;/* 固定配置 */
+	top:0;/* 上から0 */
+	left:100px;/* 左から100 */
+	width:130px;/* 幅130px */
+	height:132px;/* 高さ132px */
+	z-index:100;/* 帯の上に重ねる */
+}
+
+/* ログインの位置設定 */
+h1{
+	position:relative;/* 相対位置 */
+	top:165px;/* 下に165 */
+}
+
+/* 社員番号・パスワードの位置設定 */
+.text{
+	position:relative;/* 相対位置 */
+	right:40px;/* 左に40px */
+	top:18px/* 下に18px */
+}
+
+/* テキストボックスの位置設定 */
+.place{
+	position:relative;/* 相対位置 */
+	top:165px;/* 下に165px */
+}
+
